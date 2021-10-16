@@ -1,3 +1,9 @@
 h1, p {
   font-family: Lato;
 }
+
+div{
+  font-family: Arial;
+  color: green;
+  font-weight: bold;
+}

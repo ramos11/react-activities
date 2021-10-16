@@ -4,7 +4,7 @@ import "./style.css";
 const name1 = "Toaster";
 const id1 = "T01234";
 const datePurchased1 = "16/10/2021";
-const price1 = "20.00";
+const price1 = "£20.00";
 
 // const nm = "Name: ";
 
