@@ -4,7 +4,7 @@ import React from 'react';
 function Product (prop) {
 
     function toString(prop){
-        return "[" + "name = "+ prop.name+ ", id = "+prop.id+ ", datePurchased = "+prop.datePurchased +"]";
+        return "[" + "name = "+ prop.productName+ ", id = "+prop.productId+ ", datePurchased = "+prop.productDatePurchased +"]";
     }
 
     return (
