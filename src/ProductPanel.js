@@ -1,6 +1,7 @@
 // ProductPanel.js
 
 import React from 'react';
+// import Product from './Product.js';
 
 function ProductPanel(){
 
@@ -28,7 +29,7 @@ function ProductPanel(){
             setProductDatePurchased(e.target.value)}  ></input>           
             <br/><br/>
             <button style={{color:"blue"}} onClick={showClickHandler}>Show</button>
-            <button style={{color:"red"}} onClick={clearClickHandler}>Clear</button>
+            <button style={{color:"black"}} onClick={clearClickHandler}>Clear</button>
             <br/><br/>
 
             <input placeholder="Some value"></input>

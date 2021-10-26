@@ -28,7 +28,7 @@ function App() {
   return (
     <div>
       <ProductPanel/>
-      {/* <Product/> */}
+      <Product/>
       {/* <Product name={name1} id={id1} datePurchased={datePurchased1} price={price1}/> */}
       {/* <br/> */}
       {/* <button onClick={showClickHandler}>

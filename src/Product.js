@@ -1,15 +1,15 @@
 // Product.js
 import React from 'react';
 
-function Product (prop) {
+function Product (props) {
 
-    function toString(prop){
-        return "[" + "name = "+ prop.productName+ ", id = "+prop.productId+ ", datePurchased = "+prop.productDatePurchased +"]";
+    function toString(props){
+        return "[" + "name = "+ props.productName+ ", id = "+props.productId+ ", datePurchased = "+props.productDatePurchased +"]";
     }
 
     return (
         <div>
-            {toString(prop)};  
+            {toString(props)};  
         </div>
     );
 }
