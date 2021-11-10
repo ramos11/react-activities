@@ -3,6 +3,7 @@ import "./style.css";
 import Product from './Product.js';
 import ProductPanel from './ProductPanel.js';
 import Dropdown from 'react-dropdown';
+import Contact from './Contact';
 
 // const name1 = "Toaster";
 // const id1 = "T01234";
@@ -25,17 +26,25 @@ import Dropdown from 'react-dropdown';
 //   window.alert(toString(name1, id1, datePurchased1, price1))
 // }
 
-function App() {
-  return (
-    <div>
-      <ProductPanel/>
-      <Product productName="Toaster" productId="1" productDatePurchased="26/10/2021"/>
+// function App() {
+//   return (
+//     <div>
+//       <ProductPanel/>
+//       <Product productName="Toaster" productId="1" productDatePurchased="26/10/2021"/>
       
-      {/* <Product name={name1} id={id1} datePurchased={datePurchased1} price={price1}/> */}
-      {/* <br/> */}
-      {/* <button onClick={showClickHandler}>
-        Show Product
-      </button> */}
+//       {/* <Product name={name1} id={id1} datePurchased={datePurchased1} price={price1}/> */}
+//       {/* <br/> */}
+//       {/* <button onClick={showClickHandler}>
+//         Show Product
+//       </button> */}
+//     </div>
+//   );
+// }
+
+function App(){
+  return(
+    <div>
+      <Contact/>
     </div>
   );
 }
