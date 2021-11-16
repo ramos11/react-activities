@@ -4,6 +4,9 @@ import Product from './Product.js';
 import ProductPanel from './ProductPanel.js';
 import Dropdown from 'react-dropdown';
 import Contact from './Contact';
+import Products from './Products';
+
+const someJsonRecords = ();
 
 // const name1 = "Toaster";
 // const id1 = "T01234";
